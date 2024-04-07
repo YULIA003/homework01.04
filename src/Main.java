@@ -10,9 +10,9 @@ public class Main {
         System.out.println(numbers[0]);
         System.out.println(numbers[1]);
         System.out.println(numbers[2]);
-        double[] nor = {1.57, 7.654, 9.986};
-        for (double i = 0; i < nor.length; i++) {
-            System.out.println(nor[(int) i]);
+        double [] fractionalNumbers = {1.57, 7.654, 9.986};
+        for (int i = 0; i < fractionalNumbers.length; i++) {
+            System.out.println(fractionalNumbers[i]);
         }
         int[] weights = new int[2];
         weights[0] = 65;
@@ -21,7 +21,7 @@ public class Main {
         System.out.println(weights[1]);
         System.out.println("Задание 2");
         System.out.println(Arrays.toString(numbers));
-        System.out.println(Arrays.toString(nor));
+        System.out.println(Arrays.toString(fractionalNumbers));
         System.out.println(Arrays.toString(weights));
         System.out.println("Задание 3");
         for (int i = numbers.length - 1; i >= 0; i--) {
@@ -31,8 +31,8 @@ public class Main {
             }
         }
         System.out.println();
-        for (int i = nor.length - 1; i >= 0; i--) {
-            System.out.print(nor[i]);
+        for (int i = fractionalNumbers.length - 1; i >= 0; i--) {
+            System.out.print(fractionalNumbers[i]);
             if (i > 0) {
                 System.out.print(", ");
             }
